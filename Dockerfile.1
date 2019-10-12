@@ -1,0 +1,6 @@
+FROM alpine:3.4
+MAINTAINER Francesco Segala
+COPY ./Chord-DHT/cescoprog /urs/src/Chord_DHT/cescoprog
+WORKDIR /urs/src/Chord_DHT
+
+EXPOSE 9911/udp
